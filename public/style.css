@@ -1,0 +1,92 @@
+body {
+  background-color: #E0DAE3;
+}
+
+h2, h3, h4 {
+  color: #3B8C42;
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+}
+
+h4 {
+  animation-name: pumping;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+a {
+  text-decoration: none;
+  color: #68AB72;
+  font-family: 'Abel', sans-serif;
+}
+
+li {
+  display: inline-block;
+  padding: 0 10px;
+  border: 2px solid #68AB72;
+  background-color: #F2F5C4;
+  border-radius: 20px;
+}
+
+li:hover {
+  background-color: #BDC454;
+}
+
+nav {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: #9BD1A3;
+  height: 30px;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  border: 2px dotted #68AB72;
+}
+
+footer {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: #9BD1A3;
+  height: 30px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px dotted #68AB72;
+}
+
+input[type="submit"] {
+  border: 2px solid #68AB72;
+  background-color: #F2F5C4;
+  border-radius: 20px;
+  color: #68AB72;
+  font-family: 'Abel', sans-serif;
+}
+
+label {
+  color: #68AB72;
+  font-family: 'Abel', sans-serif;
+}
+
+input {
+  display: inline-block;
+}
+
+form {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: #68AB72;
+  font-family: 'Abel', sans-serif;
+}
+
+@keyframes pumping {
+    0%   {font-size: 15px;}
+    50%  {font-size: 20px;}
+    100% {font-size: 25px;}
+}

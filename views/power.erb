@@ -1,0 +1,11 @@
+<form action="/power" method='get'>
+  <label for="number">NUMBER</label>
+  <input type="text" name="number" placeholder="Enter your number">
+  <label for="power">POWER</label>
+  <input type="text" name="power" placeholder="Enter power">
+  <input type="submit">
+</form>
+
+<% if @power > 0.0 %>
+<p>The result of <%= @number %> to the power of <%= @power %> is <%= @result_power %></p>
+<% end %>

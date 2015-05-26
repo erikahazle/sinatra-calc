@@ -1,0 +1,18 @@
+<form action="/trip_calc" method='get'>
+  <label for="distance">DISTANCE</label>
+  <input type="text" name="distance" placeholder="Enter the distance in miles">
+  <label for="mpg">MPG</label>
+  <input type="text" name="mpg" placeholder="Enter mpg">
+
+  <label for="cost">COST</label>
+  <input type="text" name="cost" placeholder="Fuel price per gallon">
+
+  <label for="speed">SPEED</label>
+  <input type="text" name="speed" placeholder="Enter your speed">
+
+  <input type="submit">
+</form>
+
+<% if @time > 0 && @trip_cost > 0 %>  
+  <p>Your trip will last <%= @time %> hours and will cost you £<%= @trip_cost %></p>
+<% end %>

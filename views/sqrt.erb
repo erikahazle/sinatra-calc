@@ -1,0 +1,9 @@
+<form action="/sqrt" method='get'>
+  <label for="number">NUMBER</label>
+  <input type="text" name="number" placeholder="Enter your number">
+  <input type="submit">
+</form>
+
+<% if @result_sqrt %>
+<p>Square root of <%= @number %> is <%= @result_sqrt %></p>
+<% end %>
