@@ -4,6 +4,6 @@
   <input type="submit">
 </form>
 
-<% if @result_sqrt %>
+<% if @result_sqrt > 0.0 %>
 <p>Square root of <%= @number %> is <%= @result_sqrt %></p>
 <% end %>
